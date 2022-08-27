@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+ height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('word.jpg');
+   /* background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+ opacity: 0.8;
+ background-color: white;
+ border: 3px solid #5372F0;
+ border-radius: 0px 50px;
+ padding-left: 20px;
+ padding-right: 30px;
+ padding-bottom: 40px;
+ padding-top: 20px;
+ margin-left: 60px;
+
+ margin-right: 60px;
+
+ box-shadow: 3px 4px 10px black;
+}
+
+h2{
+ font-size: 17px;
+}
+
+hr{
+ width: 150px;
+ border-bottom: 4px dashed #5372F0;
+ border-top: none;
+ margin-top: 5px;
+}
+
+
+.word{
+ letter-spacing: 17px;
+ margin-block: 20px;
+ font-size: 20px;
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+.hint, .time{
+ font-size: 15px;
+
+}
+
+.hint{
+ margin-bottom: 10px;
+}
+
+.hint-word, .time-left{
+ color: #5372F0;
+ letter-spacing: 1px;
+ font-weight: bold;
+}
+
+.time{
+ margin-bottom: 20px;
+}
+
+.input{
+ padding-block: 8px;
+ padding-right: 80px;
+ padding-left: 10px;
+ border: 2px solid #5372F0;
+ margin-bottom: 20px;
+}
+
+.input::placeholder{
+ color: #5372F0;
+ font-size: 12px;
+ }
+
+ .refresh-word, .check-word{
+  padding-block: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  }
+  
+  .refresh-word{
+   margin-left: 20px;
+   margin-right: 10px;
+   background-color: transparent;
+   border: 2px solid black;
+   color: black;
+   transition: background-color .1s, color .1s;
+   
+  }
+  
+  .refresh-word:active{
+   background-color: black;
+   color: white;
+  }
+  
+  .check-word{
+   background-color: #5372F0;
+   color: white;
+   border: none;
+   transition: background-color .05s, color .05s, border .05s;
+  }
+  
+  .check-word:hover{
+   background-color: transparent;
+   border: 2px solid #5372F0;
+   color: #5372F0;
+  }
+ 
+
+/*@media(min-width: 550px){
+ 
+ .container{
+  min-height: 30%;
+  min-width: 20%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-block: 30px;
+ }
+ 
+ .word{
+  margin-block: 30px;
+ }
+}*/
